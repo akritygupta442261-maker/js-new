@@ -1,0 +1,36 @@
+let score=true
+let score2= null
+console.log(typeof score)
+console.log(typeof(score))
+
+//convert string into no
+let valueInNumber=Number(score)
+console.log(typeof valueInNumber )
+console.log(valueInNumber)
+
+
+let isLoggedIn="akrity"
+let booleanIsLoggedIn= Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn)
+
+
+// convert to string
+let someNo= 33
+let stringNo= String(someNo)
+console.log(stringNo)   //output is 33
+console.log(typeof(stringNo))
+
+
+///no - "33"=>33
+// "33abc"=> NaN
+//true=> 1; false=>0
+//null=>0
+
+//1=>true
+//0=>false
+//"akrity"=> true
+
+
+
+
+
