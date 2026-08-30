@@ -1,24 +1,24 @@
 let score=true
 let score2= null
-console.log(typeof score)
-console.log(typeof(score))
+// console.log(typeof score)
+// console.log(typeof(score))
 
 //convert string into no
 let valueInNumber=Number(score)
-console.log(typeof valueInNumber )
-console.log(valueInNumber)
+// console.log(typeof valueInNumber )
+// console.log(valueInNumber)
 
 
 let isLoggedIn="akrity"
 let booleanIsLoggedIn= Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+//console.log(booleanIsLoggedIn)
 
 
 // convert to string
 let someNo= 33
 let stringNo= String(someNo)
-console.log(stringNo)   //output is 33
-console.log(typeof(stringNo))
+// console.log(stringNo)   //output is 33
+// console.log(typeof(stringNo))
 
 
 ///no - "33"=>33
@@ -29,6 +29,48 @@ console.log(typeof(stringNo))
 //1=>true
 //0=>false
 //"akrity"=> true
+
+//---------------------[operation]-------------------------------------
+
+
+let value= 3
+let negValue=-value
+//console.log(negValue)
+
+//addititon of two string
+let str1= "hello"
+let str2="akrity"
+let str3= str1+str2
+//console.log(str3);
+
+
+//it concatinates
+// console.log("1"+2)
+// console.log(1+"2")
+// console.log("1"+"2")
+// console.log(1+2)
+// console.log(1+2+"2")
+
+//console.log((3+4)*5%3);
+
+
+
+//prefix and postfix
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+
+
+
 
 
 
